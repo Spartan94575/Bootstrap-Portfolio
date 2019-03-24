@@ -215,4 +215,29 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+
+  @media screen and (max-width: 980px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    nav { max-width: 768px;}
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    nav {
+      position: fixed;
+      max-width: 640px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
